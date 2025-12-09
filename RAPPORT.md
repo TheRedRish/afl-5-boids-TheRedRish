@@ -35,7 +35,7 @@ algoritmer så kommer tiden tættere på den naive.
 Benchmark med 2000 boids, radius = 20.0  
 Warmup: 50 iterationer  
 Måling: 500 iterationer  
-
+  
 NaiveSpatialIndex   :	8,1161 ms per iteration  
 KDTreeSpatialIndex  :	1,3657 ms per iteration  
 QuadTreeSpatialIndex:	0,6804 ms per iteration  
@@ -44,7 +44,7 @@ SpatialHashIndex    :	2,3941 ms per iteration
 Benchmark med 2000 boids, radius = 60.0  
 Warmup: 50 iterationer  
 Måling: 500 iterationer  
-
+  
 NaiveSpatialIndex   :	13,0585 ms per iteration  
 KDTreeSpatialIndex  :	5,7313 ms per iteration  
 QuadTreeSpatialIndex:	4,1783 ms per iteration  
@@ -53,7 +53,7 @@ SpatialHashIndex    :	12,9977 ms per iteration
 Benchmark med 2000 boids, radius = 100.0  
 Warmup: 50 iterationer  
 Måling: 500 iterationer  
-
+  
 NaiveSpatialIndex   :	16,8572 ms per iteration  
 KDTreeSpatialIndex  :	9,8993 ms per iteration  
 QuadTreeSpatialIndex:	6,3600 ms per iteration  
